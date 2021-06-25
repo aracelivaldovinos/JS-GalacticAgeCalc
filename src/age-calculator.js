@@ -14,9 +14,10 @@ Calculator.prototype.ageCalculator = function () {
     return (Math.round(this.age * 1.88))
   }else if (this.planet === "jupiter") {
     return (Math.round(this.age * 11.86))
-  }
-  else if (this.planet === "saturn") {
+  }else if (this.planet === "saturn") {
     return (Math.round(this.age * 29.46))
+  }else if (this.planet === "uranus") {
+    return (Math.round(this.age * 84.01))
   }
   
 }
