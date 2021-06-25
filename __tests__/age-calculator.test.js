@@ -10,6 +10,6 @@ describe('Calculator', () => {
   });
   test('should calculate age in mercury years', () => {
     const mercuryAge = new Calculator (27,46, 0);
-    expect(mercuryAge.ageCalculator ()).toEqual(27);
+    expect(mercuryAge.ageCalculator ()).toEqual(6);
   });
 });
