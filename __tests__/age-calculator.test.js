@@ -37,6 +37,10 @@ describe('Calculator', () => {
     const mercuryAge = new Calculator (27,46, 0, "neptune");
     expect(mercuryAge.ageCalculator ()).toEqual(4449);
   });
+  test('should calculate age in pluto years', () => {
+    const mercuryAge = new Calculator (27,46, 0, "pluto");
+    expect(mercuryAge.ageCalculator ()).toEqual(6712);
+  });
 
 
 });
