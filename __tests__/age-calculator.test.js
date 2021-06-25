@@ -89,5 +89,8 @@ describe('Calculator', () => {
     const yearsOver = new Calculator (74,73, "venus");
     expect(yearsOver.yearsOver ()).toEqual("0.62");
   });
-  
+  test('should calculate years over life expectancy on mars', () => {
+    const yearsOver = new Calculator (74,73, "mars");
+    expect(yearsOver.yearsOver ()).toEqual("1.88");
+  });
 });
