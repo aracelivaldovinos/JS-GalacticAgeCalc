@@ -58,6 +58,12 @@ Calculator.prototype.yearsOver = function () {
   return ((this.age*1.88) - (this.lifeExpectancy * 1.88)).toFixed(2)
 } else if (this.planet === "jupiter" && (this.lifeExpectancy * 11.86) <= (this.age*11.86)) {
   return ((this.age*11.86) - (this.lifeExpectancy * 11.86)).toFixed(2)
+}else if (this.planet === "saturn" && (this.lifeExpectancy * 29.46) <= (this.age*29.46)) {
+  return ((this.age*29.46) - (this.lifeExpectancy * 29.46)).toFixed(2)
+}else if (this.planet === "uranus" && (this.lifeExpectancy * 84.01) <= (this.age*84.01)) {
+  return ((this.age*84.01) - (this.lifeExpectancy * 84.01)).toFixed(2)
+}else if (this.planet === "neptune" && (this.lifeExpectancy * 164.79) <= (this.age*164.79)) {
+  return ((this.age*164.79) - (this.lifeExpectancy * 164.79)).toFixed(2)
 }
 }
   

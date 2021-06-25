@@ -93,4 +93,16 @@ describe('Calculator', () => {
     const yearsOver = new Calculator (74,73, "jupiter");
     expect(yearsOver.yearsOver ()).toEqual("11.86");
   });
+  test('should calculate years over life expectancy on saturn', () => {
+    const yearsOver = new Calculator (74,73, "saturn");
+    expect(yearsOver.yearsOver ()).toEqual("29.46");
+  });
+  test('should calculate years over life expectancy on uranus', () => {
+    const yearsOver = new Calculator (74,73, "uranus");
+    expect(yearsOver.yearsOver ()).toEqual("84.01");
+  });
+  test('should calculate years over life expectancy on neptune', () => {
+    const yearsOver = new Calculator (74,73, "neptune");
+    expect(yearsOver.yearsOver ()).toEqual("164.79");
+  });
 });
