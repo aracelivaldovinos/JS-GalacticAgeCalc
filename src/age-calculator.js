@@ -1,10 +1,11 @@
-export default function Calculator (age, lifeExpectancy, planet) {
+export default class Calculator {
+  constructor (age, lifeExpectancy, planet) {
   this.age = age;
   this.lifeExpectancy = lifeExpectancy;
   this.planet = planet
 }
 
-Calculator.prototype.ageCalculator = function () {
+ageCalculator () {
   if (this.planet === "mercury") {
     return((Math.round(this.age * 0.24)))
   }else if (this.planet === "venus") {
@@ -26,7 +27,7 @@ Calculator.prototype.ageCalculator = function () {
 }
 }
 
-Calculator.prototype.yearsLeft = function () {
+yearsLeft () {
 
   if (this.planet === "mercury") {
     return Math.round(((this.lifeExpectancy * 0.24) - (this.age * 0.24)))
@@ -49,7 +50,7 @@ Calculator.prototype.yearsLeft = function () {
 }
 }
   
-Calculator.prototype.yearsOver = function () {
+yearsOver() {
   if (this.planet === "mercury" && (this.lifeExpectancy * 0.24) <= (this.age*0.24)) {
     return ((this.age*0.24) - (this.lifeExpectancy * 0.24)).toFixed(2)
 } else if (this.planet === "venus" && (this.lifeExpectancy * 0.62) <= (this.age*0.62)) {
@@ -68,6 +69,7 @@ Calculator.prototype.yearsOver = function () {
   return ((this.age*248.59) - (this.lifeExpectancy * 248.59)).toFixed(2)
 }else if (this.planet === "earth" && (this.lifeExpectancy * 1) <= (this.age*1)) {
   return ((this.age*1) - (this.lifeExpectancy * 1))
+}
 }
 }
   
