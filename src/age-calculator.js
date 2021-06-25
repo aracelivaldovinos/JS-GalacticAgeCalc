@@ -1,9 +1,8 @@
-export default function Calculator (age, lifeExpectancy, newAge, planet, newLifeExpectancy) {
+export default function Calculator (age, lifeExpectancy, newAge, planet) {
   this.age = age;
   this.lifeExpectancy = lifeExpectancy;
   this.newAge = newAge
   this.planet = planet
-  this.newLifeExpectancy = newLifeExpectancy
 }
 
 Calculator.prototype.ageCalculator = function () {
@@ -40,36 +39,28 @@ Calculator.prototype.ageCalculator = function () {
 
 Calculator.prototype.yearsLeft = function () {
   this.newAge = parseInt(this.newAge.toString())
-  this.newLifeExpectancy = []
   if (this.planet === "mercury") {
-    this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 0.24) - this.newAge)))
-    return this.newLifeExpectancy 
+    return Math.round(((this.lifeExpectancy * 0.24) - this.newAge))
   } else if (this.planet === "venus") {
-    this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 0.62) - this.newAge)))
-    return this.newLifeExpectancy 
+    return Math.round(((this.lifeExpectancy * 0.62) - this.newAge))
 }else if (this.planet === "mars") {
-  this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 1.88) - this.newAge)))
-    return this.newLifeExpectancy 
+  return Math.round(((this.lifeExpectancy * 1.88) - this.newAge))
 }else if (this.planet === "jupiter") {
-  this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 11.88) - this.newAge)))
-  return this.newLifeExpectancy 
+  return Math.round(((this.lifeExpectancy * 11.88) - this.newAge))
 }else if (this.planet === "saturn") {
-  this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 29.46) - this.newAge)))
-  return this.newLifeExpectancy 
+  return Math.round(((this.lifeExpectancy * 29.46) - this.newAge))
 }else if (this.planet === "uranus") {
-  this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 84.01) - this.newAge)))
-    return this.newLifeExpectancy 
+  return Math.round(((this.lifeExpectancy * 84.01) - this.newAge))
 }else if (this.planet === "neptune") {
-  this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 164.79) - this.newAge)))
-    return this.newLifeExpectancy 
+  return Math.round(((this.lifeExpectancy * 164.79) - this.newAge))
 }else if (this.planet === "pluto") {
-  this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 248.59) - this.newAge)))
-    return this.newLifeExpectancy 
+  return Math.round(((this.lifeExpectancy * 248.59) - this.newAge))
 }else {
-  this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 1) - this.newAge)))
-  return this.newLifeExpectancy 
+  return Math.round(((this.lifeExpectancy * 1) - this.newAge))
 }
 }
   
-
+Calculator.prototype.yearsOver = function () {
+ 
+}
   
