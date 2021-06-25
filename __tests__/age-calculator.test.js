@@ -65,6 +65,10 @@ describe('Calculator', () => {
     const yearsLeft = new Calculator (27,73, 795, "saturn");
     expect(yearsLeft.yearsLeft ()).toEqual(1356);
   });
+  test('should calculate years left on uranus', () => {
+    const yearsLeft = new Calculator (27,73, 2268, "uranus");
+    expect(yearsLeft.yearsLeft ()).toEqual(3865);
+  });
 
 
 });
