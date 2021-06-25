@@ -1,3 +1,11 @@
 body {
-  background-color: purple;
+  background-image: url("https://mediaproxy.salon.com/width/1200/https://media.salon.com/2020/12/milky-way-galaxy-1203202.jpg");
+}
+
+p {
+  color: rgb(167, 161, 192);
+}
+
+#mercuryBtn{
+  color: rgb(167, 161, 192);;
 }
