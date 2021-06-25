@@ -3,3 +3,8 @@ export default function Calculator (age, yearsLeft, yearsOver) {
   this.yearsLeft = yearsLeft;
   this.yearsOver = yearsOver
 }
+
+Calculator.prototype.ageCalculator = function () {
+  
+
+}
