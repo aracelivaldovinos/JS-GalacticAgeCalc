@@ -105,4 +105,12 @@ describe('Calculator', () => {
     const yearsOver = new Calculator (74,73, "neptune");
     expect(yearsOver.yearsOver ()).toEqual("164.79");
   });
+  test('should calculate years over life expectancy on pluto', () => {
+    const yearsOver = new Calculator (74,73, "pluto");
+    expect(yearsOver.yearsOver ()).toEqual("248.59");
+  });
+  test('should calculate years over life expectancy on earth', () => {
+    const yearsOver = new Calculator (74,73, "earth");
+    expect(yearsOver.yearsOver ()).toEqual(1);
+  });
 });

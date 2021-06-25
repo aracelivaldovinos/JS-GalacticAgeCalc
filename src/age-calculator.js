@@ -64,6 +64,10 @@ Calculator.prototype.yearsOver = function () {
   return ((this.age*84.01) - (this.lifeExpectancy * 84.01)).toFixed(2)
 }else if (this.planet === "neptune" && (this.lifeExpectancy * 164.79) <= (this.age*164.79)) {
   return ((this.age*164.79) - (this.lifeExpectancy * 164.79)).toFixed(2)
+}else if (this.planet === "pluto" && (this.lifeExpectancy * 248.59) <= (this.age*248.59)) {
+  return ((this.age*248.59) - (this.lifeExpectancy * 248.59)).toFixed(2)
+}else if (this.planet === "earth" && (this.lifeExpectancy * 1) <= (this.age*1)) {
+  return ((this.age*1) - (this.lifeExpectancy * 1))
 }
 }
   
