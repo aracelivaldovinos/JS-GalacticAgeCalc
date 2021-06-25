@@ -33,5 +33,10 @@ describe('Calculator', () => {
     const mercuryAge = new Calculator (27,46, 0, "uranus");
     expect(mercuryAge.ageCalculator ()).toEqual(2268);
   });
+  test('should calculate age in neptune years', () => {
+    const mercuryAge = new Calculator (27,46, 0, "neptune");
+    expect(mercuryAge.ageCalculator ()).toEqual(4449);
+  });
+
 
 });

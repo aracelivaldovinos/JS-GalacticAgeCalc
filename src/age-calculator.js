@@ -18,6 +18,8 @@ Calculator.prototype.ageCalculator = function () {
     return (Math.round(this.age * 29.46))
   }else if (this.planet === "uranus") {
     return (Math.round(this.age * 84.01))
+  }else if (this.planet === "neptune") {
+    return (Math.round(this.age * 164.79))
   }
   
 }
