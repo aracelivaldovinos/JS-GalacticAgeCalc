@@ -25,5 +25,9 @@ describe('Calculator', () => {
     const mercuryAge = new Calculator (27,46, 0, "jupiter");
     expect(mercuryAge.ageCalculator ()).toEqual(320);
   });
+  test('should calculate age in saturn years', () => {
+    const mercuryAge = new Calculator (27,46, 0, "saturn");
+    expect(mercuryAge.ageCalculator ()).toEqual(795);
+  });
 
 });
