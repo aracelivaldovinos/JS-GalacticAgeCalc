@@ -17,4 +17,9 @@ describe('Calculator', () => {
     const mercuryAge = new Calculator (27,46, 0, "venus");
     expect(mercuryAge.ageCalculator ()).toEqual(17);
   });
+  test('should calculate age in mars years', () => {
+    const mercuryAge = new Calculator (27,46, 0, "mars");
+    expect(mercuryAge.ageCalculator ()).toEqual(51);
+  });
+
 });
