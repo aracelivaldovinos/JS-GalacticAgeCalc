@@ -3,11 +3,12 @@ import Calculator from './../src/age-calculator.js';
 describe('Calculator', () => {
 
   test('should correctly create a calculator object with three properties', () => {
-    const calculator = new Calculator (27,46, 0, "jupiter");
+    const calculator = new Calculator (27,46, 0, "jupiter", [0] );
     expect(calculator.age).toEqual(27);
     expect(calculator.lifeExpectancy).toEqual(46);
     expect(calculator.newAge).toEqual(0);
     expect(calculator.planet).toEqual("jupiter");
+    expect(calculator.newLifeExpectancy).toEqual([0]);
   });
   test('should calculate age in mercury years', () => {
     const mercuryAge = new Calculator (27,46, 0, "mercury");

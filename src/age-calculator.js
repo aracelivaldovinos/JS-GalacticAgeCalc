@@ -1,9 +1,9 @@
-export default function Calculator (age, lifeExpectancy, newAge, planet) {
+export default function Calculator (age, lifeExpectancy, newAge, planet, newLifeExpectancy) {
   this.age = age;
   this.lifeExpectancy = lifeExpectancy;
   this.newAge = newAge
-  // this.yearsOver = yearsOver
   this.planet = planet
+  this.newLifeExpectancy = newLifeExpectancy
 }
 
 Calculator.prototype.ageCalculator = function () {
