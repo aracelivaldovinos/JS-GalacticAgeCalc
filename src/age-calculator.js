@@ -43,6 +43,10 @@ Calculator.prototype.yearsLeft = function () {
     return Math.round(((this.lifeExpectancy * 0.24) - this.newAge))
   } else if (this.planet === "venus") {
     return Math.round(((this.lifeExpectancy * 0.62) - this.newAge))
+}else if (this.planet === "mars") {
+  return Math.round(((this.lifeExpectancy * 1.88) - this.newAge))
+}else if (this.planet === "jupiter") {
+  return Math.round(((this.lifeExpectancy * 11.88) - this.newAge))
 }
 }
   

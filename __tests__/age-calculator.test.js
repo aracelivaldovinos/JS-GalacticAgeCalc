@@ -53,7 +53,14 @@ describe('Calculator', () => {
     const yearsLeft = new Calculator (27,73, 17, "venus");
     expect(yearsLeft.yearsLeft ()).toEqual(28);
   });
-
+  test('should calculate years left on mars', () => {
+    const yearsLeft = new Calculator (27,73, 51, "mars");
+    expect(yearsLeft.yearsLeft ()).toEqual(86);
+  });
+  test('should calculate years left on jupiter', () => {
+    const yearsLeft = new Calculator (27,73, 320, "jupiter");
+    expect(yearsLeft.yearsLeft ()).toEqual(547);
+  });
 
 
 });
