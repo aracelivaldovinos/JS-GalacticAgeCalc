@@ -82,8 +82,8 @@ describe('Calculator', () => {
     expect(yearsLeft.yearsLeft ()).toEqual(46);
   });
   test('should calculate years over life expectancy on mercury', () => {
-    const yearsOver = new Calculator (27,73, [27], "mercury");
-    expect(yearsOver.yearsOver ()).toEqual(46);
+    const yearsOver = new Calculator (74,73, "mercury");
+    expect(yearsOver.yearsOver ()).toEqual("0.24");
   });
   
 });
