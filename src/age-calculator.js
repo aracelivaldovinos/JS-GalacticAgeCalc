@@ -52,6 +52,8 @@ Calculator.prototype.yearsLeft = function () {
   return Math.round(((this.lifeExpectancy * 29.46) - this.newAge))
 }else if (this.planet === "uranus") {
   return Math.round(((this.lifeExpectancy * 84.01) - this.newAge))
+}else if (this.planet === "neptune") {
+  return Math.round(((this.lifeExpectancy * 164.79) - this.newAge))
 }
 }
   

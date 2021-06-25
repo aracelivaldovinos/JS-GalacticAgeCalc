@@ -69,6 +69,10 @@ describe('Calculator', () => {
     const yearsLeft = new Calculator (27,73, [2268], "uranus");
     expect(yearsLeft.yearsLeft ()).toEqual(3865);
   });
+  test('should calculate years left on neptune', () => {
+    const yearsLeft = new Calculator (27,73, [4449], "neptune");
+    expect(yearsLeft.yearsLeft ()).toEqual(7581);
+  });
   
   
 });
