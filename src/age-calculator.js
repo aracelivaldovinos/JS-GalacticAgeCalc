@@ -52,7 +52,8 @@ Calculator.prototype.yearsLeft = function () {
 Calculator.prototype.yearsOver = function () {
   if (this.planet === "mercury" && (this.lifeExpectancy * 0.24) <= (this.age*0.24)) {
     return ((this.age*0.24) - (this.lifeExpectancy * 0.24)).toFixed(2)
-
+} else if (this.planet === "venus" && (this.lifeExpectancy * 0.62) <= (this.age*0.62)) {
+  return ((this.age*0.62) - (this.lifeExpectancy * 0.62)).toFixed(2)
 }
 }
   
