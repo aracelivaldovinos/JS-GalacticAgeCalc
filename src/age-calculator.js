@@ -56,6 +56,8 @@ Calculator.prototype.yearsOver = function () {
   return ((this.age*0.62) - (this.lifeExpectancy * 0.62)).toFixed(2)
 }else if (this.planet === "mars" && (this.lifeExpectancy * 1.88) <= (this.age*1.88)) {
   return ((this.age*1.88) - (this.lifeExpectancy * 1.88)).toFixed(2)
+} else if (this.planet === "jupiter" && (this.lifeExpectancy * 11.86) <= (this.age*11.86)) {
+  return ((this.age*11.86) - (this.lifeExpectancy * 11.86)).toFixed(2)
 }
 }
   
