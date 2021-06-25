@@ -73,6 +73,14 @@ describe('Calculator', () => {
     const yearsLeft = new Calculator (27,73, [4449], "neptune");
     expect(yearsLeft.yearsLeft ()).toEqual(7581);
   });
+  test('should calculate years left on pluto', () => {
+    const yearsLeft = new Calculator (27,73, [6712], "pluto");
+    expect(yearsLeft.yearsLeft ()).toEqual(11435);
+  });
+  test('should calculate years left on pluto', () => {
+    const yearsLeft = new Calculator (27,73, [27], "earth");
+    expect(yearsLeft.yearsLeft ()).toEqual(46);
+  });
   
   
 });
