@@ -1,10 +1,10 @@
-# Super Galactic Age Calculator
+# _Super Galactic Age Calculator_
 
-#### A web application that determines a user's age besed on a planet's solar years
+#### _A web application that determines a user's age besed on a planet's solar years_
 
-#### By Araceli Valdovinos
+#### By _Araceli Valdovinos_
 
-## Technologies Used
+## _Technologies Used_
 
 * _JavaScript_
 * _jQuery_
@@ -12,7 +12,7 @@
 * _CSS_
 * _Bootstrap_
 
-### Description
+## Description
 _This browser application determines a user's age based on a planet's solar years. It takes a person's age in years and creates a class that does the following:_
 * _Returns their age in Mercury years. (A Mercury year is .24 Earth years.)_
 * _Returns their age in Venus years. (A Venus year is .62 Earth years.)_
@@ -26,9 +26,9 @@ _This browser application determines a user's age based on a planet's solar year
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
+* _Clone the repository to desktop_
+* _Navigate inside the folder_
+* _open index.html_
 * _easy-to-understand_
 * _format_
 
