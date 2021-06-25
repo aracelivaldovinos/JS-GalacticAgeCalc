@@ -45,6 +45,11 @@ describe('Calculator', () => {
     const earthAge = new Calculator (27,46, 0, "earth");
     expect(earthAge.ageCalculator ()).toEqual([27]);
   });
+  test('should calculate years left on mercury', () => {
+    const yearsLeft = new Calculator (27,73, 0, "mercury");
+    expect(yearsLeft.yearsLeft ()).toEqual(11);
+  });
+
 
 
 });

@@ -36,5 +36,11 @@ Calculator.prototype.ageCalculator = function () {
   this.newAge.push((Math.round(this.age * 1)))
   return this.newAge
 }
+}
+
+Calculator.prototype.yearsLeft = function () {
   
 }
+  
+
+  
