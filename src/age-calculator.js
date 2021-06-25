@@ -8,6 +8,8 @@ export default function Calculator (age, yearsLeft, yearsOver, planet) {
 Calculator.prototype.ageCalculator = function () {
   if (this.planet === "mercury") {
     return (Math.round(this.age * 0.24))
+  }else if (this.planet === "venus") {
+    return (Math.round(this.age * 0.62))
   }
   
 }
