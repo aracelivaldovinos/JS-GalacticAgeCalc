@@ -11,6 +11,8 @@
 * _HTML_
 * _CSS_
 * _Bootstrap_
+* _Jest_
+* _webpack_
 
 ## Description
 _This browser application determines a user's age based on a planet's solar years. It takes a person's age in years and creates a class that does the following:_
@@ -26,11 +28,11 @@ _This browser application determines a user's age based on a planet's solar year
 
 ## Setup/Installation Requirements
 
-* _Clone the repository to desktop_
-* _Navigate inside the folder_
-* _open index.html_
-* _easy-to-understand_
-* _format_
+* _Clone the repository to desktop using "git clone" in terminal_
+* _Navigate inside the folder and run "npm install" to download dependencies_
+* _Open clone folder in text editor of your choice_
+* _Run "npm run start" in terminal_
+
 
 ## Known Bugs
 
