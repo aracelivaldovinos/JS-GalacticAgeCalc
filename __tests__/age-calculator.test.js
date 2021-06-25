@@ -1,0 +1,1 @@
+import Calculator from './../src/age-calculator.js';
