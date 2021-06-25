@@ -1,4 +1,5 @@
-export default class Calculator {
-  constructor (age, yearsLeft, yearsOver)
-  
+export default function Calculator (age, yearsLeft, yearsOver) {
+  this.age = age;
+  this.yearsLeft = yearsLeft;
+  this.yearsOver = yearsOver
 }
