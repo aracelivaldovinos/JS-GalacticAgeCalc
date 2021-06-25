@@ -40,24 +40,34 @@ Calculator.prototype.ageCalculator = function () {
 
 Calculator.prototype.yearsLeft = function () {
   this.newAge = parseInt(this.newAge.toString())
+  this.newLifeExpectancy = []
   if (this.planet === "mercury") {
-    return Math.round(((this.lifeExpectancy * 0.24) - this.newAge))
+    this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 0.24) - this.newAge)))
+    return this.newLifeExpectancy 
   } else if (this.planet === "venus") {
-    return Math.round(((this.lifeExpectancy * 0.62) - this.newAge))
+    this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 0.62) - this.newAge)))
+    return this.newLifeExpectancy 
 }else if (this.planet === "mars") {
-  return Math.round(((this.lifeExpectancy * 1.88) - this.newAge))
+  this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 1.88) - this.newAge)))
+    return this.newLifeExpectancy 
 }else if (this.planet === "jupiter") {
-  return Math.round(((this.lifeExpectancy * 11.88) - this.newAge))
+  this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 11.88) - this.newAge)))
+  return this.newLifeExpectancy 
 }else if (this.planet === "saturn") {
-  return Math.round(((this.lifeExpectancy * 29.46) - this.newAge))
+  this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 29.46) - this.newAge)))
+  return this.newLifeExpectancy 
 }else if (this.planet === "uranus") {
-  return Math.round(((this.lifeExpectancy * 84.01) - this.newAge))
+  this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 84.01) - this.newAge)))
+    return this.newLifeExpectancy 
 }else if (this.planet === "neptune") {
-  return Math.round(((this.lifeExpectancy * 164.79) - this.newAge))
+  this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 164.79) - this.newAge)))
+    return this.newLifeExpectancy 
 }else if (this.planet === "pluto") {
-  return Math.round(((this.lifeExpectancy * 248.59) - this.newAge))
+  this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 248.59) - this.newAge)))
+    return this.newLifeExpectancy 
 }else {
-  return Math.round(((this.lifeExpectancy * 1) - this.newAge))
+  this.newLifeExpectancy.push(Math.round(((this.lifeExpectancy * 1) - this.newAge)))
+  return this.newLifeExpectancy 
 }
 }
   
