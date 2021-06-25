@@ -47,6 +47,8 @@ Calculator.prototype.yearsLeft = function () {
   return Math.round(((this.lifeExpectancy * 1.88) - this.newAge))
 }else if (this.planet === "jupiter") {
   return Math.round(((this.lifeExpectancy * 11.88) - this.newAge))
+}else if (this.planet === "saturn") {
+  return Math.round(((this.lifeExpectancy * 29.46) - this.newAge))
 }
 }
   
