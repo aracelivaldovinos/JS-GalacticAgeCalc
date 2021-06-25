@@ -41,7 +41,9 @@ Calculator.prototype.ageCalculator = function () {
 Calculator.prototype.yearsLeft = function () {
   if (this.planet === "mercury") {
     return Math.round(((this.lifeExpectancy * 0.24) - this.newAge))
-  }
+  } else if (this.planet === "venus") {
+    return Math.round(((this.lifeExpectancy * 0.62) - this.newAge))
+}
 }
   
 
