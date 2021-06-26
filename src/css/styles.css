@@ -2,10 +2,25 @@ body {
   background-image: url("https://mediaproxy.salon.com/width/1200/https://media.salon.com/2020/12/milky-way-galaxy-1203202.jpg");
 }
 
-p {
-  color: rgb(167, 161, 192);
+.jumbotron{
+    min-width: 50%;
+    margin: 50% auto;
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px 50px 50px;
+    border: 0.08em solid black;
+}
+.container{
+  background-color: rgb(114, 114, 134);
+  margin-top: 20%;
+  margin-bottom: 20%;
+  border-radius: 20%;
 }
 
-#mercuryBtn{
-  color: rgb(167, 161, 192);;
+h1 {
+  padding-top: 10%;
+}
+
+#age{
+  padding-bottom: 10%;
 }
