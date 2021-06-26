@@ -4,7 +4,7 @@
   "description": "#### (Brief Description of Application)",
   "main": "main.js",
   "scripts": {
-    "build": "webpack --mode=development",
+    "build": "webpack --mode development",
     "start": "npm run build; webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
     "test": "jest --coverage"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/aracelivaldovinos/template-repo.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Araceli Valdovinos",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aracelivaldovinos/template-repo/issues"
@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
-    "jquery": "^3.5.1",
+    "jquery": "^3.6.0", 
     "popper.js": "^1.16.1"
   }
 }

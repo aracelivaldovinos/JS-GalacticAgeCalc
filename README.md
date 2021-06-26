@@ -36,8 +36,8 @@ _This browser application determines a user's age based on a planet's solar year
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _jQuery built-in function are crossed out, unable to add a UI_
+
 
 ## License
 _[MIT](https://opensource.org/licenses/MIT) (c) 2021 Araceli Valdovinos_

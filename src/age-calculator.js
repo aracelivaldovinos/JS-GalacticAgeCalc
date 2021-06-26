@@ -1,3 +1,4 @@
+
 export default class Calculator {
   constructor (age, lifeExpectancy, planet) {
   this.age = age;
