@@ -70,6 +70,8 @@ yearsOver() {
   return ((this.age*248.59) - (this.lifeExpectancy * 248.59)).toFixed(2)
 }else if (this.planet === "earth" && (this.lifeExpectancy * 1) <= (this.age*1)) {
   return ((this.age*1) - (this.lifeExpectancy * 1))
+}else {
+  return ("You are not over the life expectancy in this planet")
 }
 }
 }
