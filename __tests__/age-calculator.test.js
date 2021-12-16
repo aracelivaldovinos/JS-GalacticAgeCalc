@@ -1,5 +1,5 @@
-import Calculator from './../src/age-calculator.js';
-
+import  Calculator  from './../src/age-calculator.js';
+/* eslint-disable */
 describe('Calculator', () => {
 
   test('should correctly create a calculator object with three properties', () => {
@@ -7,7 +7,6 @@ describe('Calculator', () => {
     expect(calculator.age).toEqual(27);
     expect(calculator.lifeExpectancy).toEqual(46);
     expect(calculator.planet).toEqual("jupiter");
- 
   });
   test('should calculate age in mercury years', () => {
     const mercuryAge = new Calculator (27,46, "mercury");
@@ -115,10 +114,12 @@ describe('Calculator', () => {
   });
   test('should calculate years over life expectancy on earth', () => {
     const yearsOver = new Calculator (74,73, "earth");
-    expect(yearsOver.yearsOver ()).toEqual(1);
+    expect(yearsOver.yearsOver ()).toEqual("1.00");
   });
   test('should calculate years over life expectancy on earth', () => {
-    const yearsOver = new Calculator (72,73, "zion");
+    const yearsOver = new Calculator (72,73, "mars");
     expect(yearsOver.yearsOver ()).toEqual("You are not over the life expectancy in this planet");
   });
 });
+
+/* eslint-disable */
