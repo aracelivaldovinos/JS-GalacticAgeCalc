@@ -1,32 +1,19 @@
-/* body {
-  background-image: url("https://mediaproxy.salon.com/width/1200/https://media.salon.com/2020/12/milky-way-galaxy-1203202.jpg");
-} */
 
 html,
 body {
   background: #efefef;
-  /* background-image: url("https://mediaproxy.salon.com/width/1200/https://media.salon.com/2020/12/milky-way-galaxy-1203202.jpg"); */
+  /* background-image: url("https://images.unsplash.com/photo-1620820871314-4e0f0fd1eaf8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBsYW5ldHN8ZW58MHx8MHx8&w=1000&q=80"); */
   padding: 10px;
   font-family: 'Varela Round';
 }
 
-/* a {
-  color: #aaaaaa;
-  transition: all ease-in-out 200ms;
-}
-a:hover {
-  color: #333333;
-  text-decoration: none;
-} */
-
-
-/* .etc-calculator-form {
-  color: #919191;
+.etc-calculator-form {
+  color: black;
   padding: 10px 20px;
 }
 .etc-calculator-form p {
   margin-bottom: 5px;
-} */
+}
 
 
 .calculator-form-1 {
@@ -87,41 +74,13 @@ a:hover {
 }
 .calculator-form-1 .calculator-button:hover {
   transform: rotate(450deg);
+  color: red;
 }
 .calculator-form-1 .calculator-button.clicked {
   color: #555555;
 }
 .calculator-form-1 .calculator-button.clicked:hover {
   transform: none;
-}
-
-
-label.form-invalid {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 5;
-  display: block;
-  margin-top: -25px;
-  padding: 7px 9px;
-  background: #777777;
-  color: #ffffff;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 11px;
-}
-label.form-invalid:after {
-  top: 100%;
-  right: 10px;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-color: transparent;
-  border-top-color: #777777;
-  border-width: 6px;
 }
 
 .logo {
@@ -142,6 +101,18 @@ label.form-invalid:after {
   display: none;
 }
 
+.years{
+  font-size: 24px;
+}
+
+.yearsLeft{
+  font-size: 24px;
+}
+
+.yearsOver{
+  font-size: 24px;
+}
+
 .yearsLeftLine{
   display: none;
 }
@@ -149,3 +120,10 @@ label.form-invalid:after {
 .yearsOverLine{
   display: none;
 }
+
+img{
+  width: 300px;
+  height: auto;
+  background-color: white;
+}
+

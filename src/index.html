@@ -1,63 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Super Galactic Age Calculator</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-</head>
-<body>
-  <div class="text-center" style="padding:50px 0">
-    <div class="logo">
-      <h1>Super Galactic Age Calculator</h1>
-    </div>
-    <div class="calculator-form-1">
-      <form id="calculator-form" class="text-left">
-        <!-- <div class="calculator-form-main-message"></div> -->
-        <div class="main-calculator-form">
-          <div class="calculator-group">
-            <div class="form-group">
-              <label for="lg_name" class="sr-only">Name</label>
-              <input type="text" class="form-control" id="name" name="lg_name" placeholder="Name">
+  <head>
+    <title>Super Galactic Age Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="text-center" style="padding:50px 0">
+      <div class="logo">
+        <h1>Super Galactic Age Calculator</h1>
+      </div>
+      <div class="calculator-form-1">
+        <form id="calculator-form" class="text-left">
+          <div class="main-calculator-form">
+            <div class="calculator-group">
+              <div class="form-group">
+                <label for="lg_name" class="sr-only">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name" required>
+              </div>
+              <div class="form-group">
+                <label for="lg_age" class="sr-only">Age</label>
+                <input type="number" class="form-control" id="age" placeholder="Age" required>
+              </div>
+              <div class="form-group">
+                <select id="planet" class="form-control" required>
+                  <option value="mercury">Mercury</option>
+                  <option value="venus">Venus</option>
+                  <option value="mars">Mars</option>
+                  <option value="jupiter">Jupiter</option>
+                  <option value="saturn">Saturn</option>
+                  <option value="uranus">Uranus</option>
+                  <option value="neptune">Neptune</option>
+                  <option value="pluto">Pluto</option>
+                </select>
+              </div>
             </div>
-            <div class="form-group">
-              <label for="lg_age" class="sr-only">Age</label>
-              <input type="number" class="form-control" id="age" name="lg_age" placeholder="Age">
-            </div>
-            <div class="form-group">
-              <select id="planet" class="form-control">
-                <option value="mercury">Mercury</option>
-                <option value="venus">Venus</option>
-                <option value="mars">Mars</option>
-                <option value="jupiter">Jupiter</option>
-                <option value="saturn">Saturn</option>
-                <option value="neptune">Neptune</option>
-                <option value="pluto">Pluto</option>
-                <option value="all">All planets</option>
-              </select>
-            </div>
+            <button type="submit" class="calculator-button"><i class="fa fa-rocket"></i></button>
           </div>
-          <button type="submit" class="calculator-button"><i class="fa fa-rocket"></i></button>
-        </div>
-      </form>
-    </div>
-  </div> 
-  
-  <div class="text-center" style="padding:50px 0" id="planetsDiv">
-    <div class="logo">
-      <p><span class="userName"></span>, <span class="userAge"></span></p>
-    </div>
-    <div class="planet-div">
+        </form>
+      </div>
       <div class="etc-calculator-form">
-        <div class="logo">
-          <h1 class="planetName"></h1>
-        </div>
-          <p class="ageLine">In <span class="planetName"></span> you will be <span class="years"></span> years old.</p>
-          <p class="yearsLeftLine">For an average life expectancy of 80 years old on Earth, <br> you will have <span class="yearsLeft"></span> years left on <span class="planetName"></span>.</p>
-          <p class="yearsOverLine">You are <span class="yearsOver"></span> years over the life expectancy on <span class="planetName"></span>.</p>
-          <!-- <p>new user? <a href="#">create new account</a></p> -->
+        <p> Years left and years over are calculated using the <br> average life expectancy on Earth (80 years).</p>
       </div>
     </div>
-    <!-- <p> Average life expectancy on Earth is 80 years <br> in <span class="planetName"></span> it's <span class="lifeExpectancy"></span> years.</p> -->
-  </div>
-</body>
+    <div class="text-center" style="padding:50px 0" id="planetsDiv">
+      <div class="logo">
+        <p><span class="userName"></span>, <span class="userAge"></span></p>
+      </div>
+      <div class="planet-div">
+        <div class="etc-calculator-form">
+          <div class="logo">
+            <h1 class="planetName"></h1>
+            <div class="image"></div>
+          </div>
+            <p class="ageLine">In <span class="planetName"></span> you will be <b><span class="years"></span></b> years old.</p>
+            <p class="yearsLeftLine">For an average life expectancy of 80 years old on Earth, <br> you will have <b><span class="yearsLeft"></span></b> years left on <span class="planetName"></span>.</p>
+            <p class="yearsOverLine"></p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
