@@ -31,12 +31,13 @@ _This browser application determines a user's age based on a planet's solar year
 * _Clone the repository to desktop using "git clone" in terminal_
 * _Navigate inside the folder and run "npm install" to download dependencies_
 * _Open clone folder in text editor of your choice_
-* _Run "npm run start" in terminal_
+* _Run "npm run start" in terminal to view on browser_
+* _Run "npm run test" in terminal to executes test_
 
 
 ## Known Bugs
 
-* _jQuery built-in function are crossed out, unable to add a UI_
+* _When user double clicks the submit button, information duplicates._
 
 
 ## License
