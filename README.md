@@ -4,6 +4,8 @@
 
 #### By _Araceli Valdovinos_
 
+![galactic_image](gal-image.png)
+
 ## _Technologies Used_
 
 * _JavaScript_
