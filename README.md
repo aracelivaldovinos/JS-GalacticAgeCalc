@@ -1,6 +1,6 @@
 # _Super Galactic Age Calculator_
 
-#### _A web application that determines a user's age besed on a planet's solar years_
+#### _A web application that determines a user's age based on a planet's solar years_
 
 #### By _Araceli Valdovinos_
 
