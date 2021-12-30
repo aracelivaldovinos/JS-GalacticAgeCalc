@@ -6,6 +6,8 @@
 
 ![galactic_image](gal-image.png)
 
+_[Galactic Calculator Live Site](https://aracelivaldovinos.github.io/js-galactic-calc/)_
+
 ## _Technologies Used_
 
 * _JavaScript_
